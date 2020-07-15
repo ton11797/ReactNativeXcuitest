@@ -40,6 +40,24 @@ const links = [
     title: 'User input',
     link: 'Tutorial003',
     description: 'Typing text on textfield and tap button.',
+  },
+  {
+    id: 4,
+    title: 'Exercise101',
+    link: 'exercise101',
+    description: 'Try to validate displayed number after click button.',
+  },
+  {
+    id: 5,
+    title: 'Exercise102',
+    link: 'exercise102',
+    description: 'Try to validate displayed number after click button.',
+  },
+  {
+    id: 6,
+    title: 'Exercise103',
+    link: 'exercise104',
+    description: 'Try to validate displayed number after click button.',
   }
 ];
 

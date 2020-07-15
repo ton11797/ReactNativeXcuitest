@@ -8,6 +8,7 @@ import LabScreen from './screen/Lab'
 import Tutorial1Screen from './screen/tutorial/T1'
 import Tutorial2Screen from './screen/tutorial/T2'
 import Tutorial3Screen from './screen/tutorial/T3'
+import Exercise101 from './screen/tutorial/Ex1'
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 
 const Tab = createMaterialBottomTabNavigator();
@@ -83,8 +84,8 @@ function App() {
         <Stack.Screen name="Tutorial001" component={Tutorial1Screen} />
         <Stack.Screen name="Tutorial002" component={Tutorial2Screen} />
         <Stack.Screen name="Tutorial003" component={Tutorial3Screen} />
-        {/* <Stack.Screen name="Tutorial004" component={Tutorial4Screen} />
-        <Stack.Screen name="Tutorial005" component={Tutorial5Screen} />
+        <Stack.Screen name="exercise101" component={Exercise101} />
+        {/* <Stack.Screen name="Tutorial005" component={Tutorial5Screen} />
         <Stack.Screen name="Tutorial006" component={Tutorial6Screen} /> */}
       </Stack.Navigator>
       <Text style={styles.footer} testID='main-title' >Create by Denice</Text>
