@@ -79,7 +79,8 @@ const LinkList = () => {
           <TouchableOpacity
             accessibilityRole="button"
             onPress={() => navigation.navigate(link)}
-            style={styles.linkContainer}>
+            style={styles.linkContainer}
+            testID={link+'-btn'}>
             <Text style={styles.link}>{title}</Text>
             <Text
               style={[
